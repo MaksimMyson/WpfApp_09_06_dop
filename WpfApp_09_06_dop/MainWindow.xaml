@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <!-- Add any UI elements you want here -->
+        <TextBlock Text="This application can only run in three instances." HorizontalAlignment="Center" VerticalAlignment="Center"/>
     </Grid>
 </Window>
