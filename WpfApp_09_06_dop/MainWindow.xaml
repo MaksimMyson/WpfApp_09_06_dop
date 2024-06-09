@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Button Content="Start Threads" Click="StartThreads_Click" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="OutputText" TextWrapping="Wrap" Margin="20" VerticalAlignment="Top"/>
     </Grid>
 </Window>
