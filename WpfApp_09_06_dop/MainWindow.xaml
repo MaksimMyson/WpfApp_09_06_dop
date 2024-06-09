@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Button Content="Start Processing" Click="StartProcessing_Click" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBox x:Name="ReportTextBox" TextWrapping="Wrap" Margin="20" VerticalAlignment="Top" IsReadOnly="True"/>
     </Grid>
 </Window>
